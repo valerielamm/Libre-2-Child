@@ -1,0 +1,23 @@
+/* 
+Theme name: Libre 2 Child
+Version: 1.0
+Template: libre-2
+*/
+
+@import url('../libre-2/style.css');
+
+html, body, #masthead.site-header {
+	background: orange;
+}
+ins, input{
+    background: navajowhite;
+}
+
+input.search-field{
+    padding-left: 1rem;
+}
+
+.singular .entry-meta:after {
+    width: 50%;
+    border-top: 2px dashed;
+}
